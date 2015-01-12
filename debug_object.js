@@ -6,7 +6,7 @@
  * @return string Returns the information.
  */
 function dump_object(array) {
-    var pad_char = ' ', pad_val = 2
+    var pad_char = ' ', pad_val = 2;
 
     function repeat_char(len, pad_char) {
         var str = '';
